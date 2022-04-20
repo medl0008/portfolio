@@ -286,7 +286,7 @@ h4 {
     text-align: center;
     margin: 0 auto;
     display: block;
-   width: 300px;
+    width: 300px;
 
 }
 
@@ -319,4 +319,192 @@ h5 {
 
 .aboutcontent p {
     font-size: 14px;
+}
+
+/*tablet and desktop screen styling*/
+@media only screen and (min-width: 650px) {
+    footer {
+        font-size: 22px;
+    }
+
+    footer p {
+        padding-top: 40px;
+    }
+
+    .icons picture {
+        padding: 30px;
+    }
+
+    .nav ul {
+        font-size: 30px;
+        padding-top: 35px;
+    }
+
+    .homecontent {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto;
+    }
+
+    .homecontent h1 {
+        grid-column: 1 / span 3;
+        grid-row: 1;
+    }
+
+    .logobox img {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .keshabox img {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .homecontent img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .arianabox img {
+        grid-column: 3;
+        grid-row: 2;
+    }
+
+    .carlybox img {
+        grid-column: 3;
+        grid-row: 3
+    }
+
+    .hometypography {
+        width: 700px;
+        height: 500px;
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .hometypography p {
+        font-size: 22px;
+        padding: 25px;
+    }
+
+    .hometypography h3 {
+        font-size: 32px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+    .homequote {
+        font-size: 22px;
+        grid-column: 2;
+        grid-row: 3;
+    }
+
+    h4 {
+        font-size: 25px;
+    }
+
+    .writingcontent {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto;
+    }
+
+    .writingcontent h1 {
+        grid-column: 1 / span 3;
+        grid-row: 1;
+    }
+
+    .writingcontent h4 {
+        grid-column: 1 / span 3;
+        grid-row: 2;
+    }
+
+    .kesharticle {
+        grid-column: 1;
+        grid-row: 3;
+        padding-top: 25px;
+    }
+
+    .lgbtq {
+        grid-column: 2;
+        grid-row: 3;
+    }
+
+    .diva {
+        grid-column: 3;
+        grid-row: 3;
+    }
+
+    .visualcontent {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto;
+    }
+
+    .visualcontent h1 {
+        grid-column: 1 / span 3;
+        grid-row: 1;
+    }
+
+    .visualcontent h4 {
+        grid-column: 1 / span 3;
+        grid-row: 2;
+    }
+
+    .portrait {
+        grid-column: 1;
+        grid-row: 3;
+        padding-top: 25px;
+    }
+
+    .photoessay {
+        grid-column: 2;
+        grid-row: 3;
+    }
+
+    .insta {
+        grid-column: 3;
+        grid-row: 3;
+    }
+
+    .aboutcontent {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: auto 300px 300px;
+        grid-template-rows: auto auto;
+        margin: auto;
+        
+        
+    }
+
+    .aboutcontent div {
+        padding: 25px;
+    }
+
+    .aboutcontent h1 {
+        grid-column: 1 / span 3;
+        grid-row: 1;
+    }
+
+    .jay {
+        grid-column: 1;
+        grid-row: 2;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .education {
+        grid-column: 2;
+        grid-row: 2;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .techskills {
+        grid-column: 3;
+        grid-row: 2;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
 }
