@@ -13,11 +13,10 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
+	margin: 0 auto;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font-family: 'journal_du_soirregular';
 	vertical-align: baseline;
 }
 /* html5 for older browsers */
@@ -44,18 +43,98 @@ footer, header, hgroup, menu, nav, section {
 
 }
 
+/* header styling*/
+
+header {
+    color: #DFD9D9;
+    padding-bottom: 0px;
+    width: 100%;
+}
+
+body {
+    background-color: #313131;
+}
+
+/*footer styling*/
+
+footer {
+    color: #DFD9D9;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows: auto;
+    width: 100%;
+    font-family: 'journal_du_soirregular';
+    padding-top: 20px;
+}
+
+footer p {
+    justify-content: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+    padding-left: 5px;
+    grid-column: 1;
+}
+
+.icons {
+    display: inline-block;
+    grid-column: 2 / span 4;
+    justify-items: right;
+}
+
+/*nav styling*/
+
+.nav ul {
+    float: right;
+    padding-top: 24px;
+    font-family: 'journal_du_soirregular';
+    font-size: 20px;
+}
+
+.nav li {
+    display: inline;
+    padding: 9px;
+}
+
+.nav picture {
+    display: inline;
+    float: left;
+
+}
+
 /*home styling*/
+
+h1 {
+    color: #DFD9D9;
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    font-size: 40px;
+    font-family: 'journal_du_soirregular';
+    padding-bottom: 20px;
+
+}
+
+h3 {
+    font-size: 20px;
+}
 
 .logobox img {
     width: 78px;
     height: 78px;
     border: solid 5px #DEA4B8;
+    background-color: #DFD9D9;
+    grid-column: 1 / span 1;
+    grid-row: 2;
+
 }
 
 .arianabox img {
     width: 78px;
     height: 78px;
     border: solid 5px #DEA4B8;
+    grid-column: 1 / span 1;
+    grid-row: 2;
+    
 }
 
 .keshabox img {
@@ -68,4 +147,176 @@ footer, header, hgroup, menu, nav, section {
     width: 78px;
     height: 78px;
     border: solid 5px #DEA4B8;
+}
+
+.homecontent {
+   text-align: center;
+   margin: 0 auto;
+   display: grid;
+   grid-template-columns: auto auto;
+   grid-template-rows: auto auto auto auto auto;
+}
+
+.hometypography {
+    background-color: #DEA4B8;
+    width: 302px;
+    grid-column: 1 / span 2;
+    grid-row: 3;
+    padding-top: 10px;
+    font-family: 'bebas_neueregular';
+    padding-bottom: 20px;
+}
+
+.hometypography p {
+    font-size: 14px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.homequote {
+    grid-column: 1 / span 2;
+    grid-row: 4;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #DFD9D9;
+    font-size: 12px;
+    font-family: 'journal_du_soirregular';
+}
+
+/*writing styling*/
+
+.writingcontent {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    justify-content: space-between;
+
+}
+
+.writingcontent img {
+    width: 234px;
+    height: 167px;
+    border-top: solid 5px #A4D1DE;
+    border-bottom: solid 8px #A4D1DE;
+    border-left: solid 8px #A4D1DE;
+    border-right: solid 8px #A4D1DE;
+}
+
+h4 {
+    font-family: 'bebas_neueregular';
+    color: #DFD9D9;
+    padding-bottom: 10px;
+}
+
+.kesharticle {
+    font-family: 'bebas_neueregular';
+    color: #181919;
+    width: 250px;
+    font-size: 20px;
+}
+
+.writingcontent h2 {
+    background-color: #A4D1DE;
+    height: 100px;
+    padding-top: 45px;
+}
+
+
+.lgbtq {
+    font-family: 'bebas_neueregular';
+    color: #181919;
+    width: 250px;
+    font-size: 20px;
+    padding-top: 25px;
+
+}
+
+.diva {
+    font-family: 'bebas_neueregular';
+    color: #181919;
+    width: 250px;
+    font-size: 20px;
+    padding-top: 25px;
+
+}
+
+/*visual styling*/
+
+.visualcontent {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    justify-content: space-between;
+}
+
+.visualcontent img {
+    width: 234px;
+    height: 167px;
+    border-top: solid 5px #A4D1DE;
+    border-bottom: solid 8px #A4D1DE;
+    border-left: solid 8px #A4D1DE;
+    border-right: solid 8px #A4D1DE;
+}
+
+.visualcontent h2 {
+    font-family: 'bebas_neueregular';
+    color: #181919;
+    width: 250px;
+    font-size: 20px;
+    background-color: #A4D1DE;
+    height: 100px;
+    padding-top: 45px;
+}
+
+.photoessay {
+    padding-top: 25px;
+}
+
+.insta {
+    padding-top: 25px;
+}
+
+/*about styling*/
+
+.aboutcontent {
+    font-family: 'bebas_neueregular';
+    color: #181919;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    justify-content: space-between;
+    width: 350px;
+
+}
+
+.aboutcontent h2 {
+    font-size: 20px;
+    width: 250px;
+}
+
+.aboutcontent div {
+    padding: 15px;
+    background-color: #BAACF3;
+    width: 250px;
+}
+
+h5 {
+    font-size: 30px;
+    padding: 15px;
+    width: 250px;
+}
+
+.aboutcontent img {
+    width: 234px;
+    height: 167px;
+    border-top: solid 5px #A4D1DE;
+    border-bottom: solid 8px #A4D1DE;
+    border-left: solid 8px #A4D1DE;
+    border-right: solid 8px #A4D1DE;
+}
+
+.aboutcontent p {
+    font-size: 14px;
 }

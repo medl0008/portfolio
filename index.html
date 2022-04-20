@@ -11,31 +11,31 @@
 
 <body>
 
-    <div class="container">
         <header>
-            <div class="desktophead">
-            <picture>
-                <source srcset="images/logo-mobile.png"
-                media="(max-width: 375px)">
+            <div class="nav">
 
-                <source srcset="images/logo-tablet.png"
-                media="(max-width: 1024px)">
+                <picture>
+                    <source srcset="images/logo-mobile.png"
+                    media="(max-width: 375px)">
+    
+                    <source srcset="images/logo-tablet.png"
+                    media="(max-width: 1024px)">
+    
+                    <source srcset="images/logo-desktop.png"
+                    media="(min-width: 1025px)">
+    
+                    <img src="images/logojmsmall.png" alt="jay medland logo">
+                </picture>
 
-                <source srcset="images/logo-desktop.png"
-                media="(min-width: 1025px)">
-
-                <img src="images/logojmsmall.png" alt="jay medland logo">
-            </picture>
-
-            <nav>
-                <ul>
+                <ul class="navmenu">
                 <li><a class="hover" href="index.html">HOME</a></li>
-                <li><a class="hover" href="visual.html">VISUAL</a></li>
                 <li><a class="hover" href="writing.html">WRITING</a></li>
+                <li><a class="hover" href="visual.html">VISUAL</a></li>
                 <li><a class="hover" href="about.html">ABOUT</a></li>
                 </ul>
-            </nav>
+            </div>
 
+            <div>
             <picture>
                 <source srcset="images/home-mobile.jpg"
                 media="(max-width: 375px)">
@@ -50,7 +50,7 @@
             </picture>
             </div>
         </header>
-    </div>
+
 
     <section class="homecontent">
         <h1>JAYMEDLANDS.COM</h1>
@@ -99,6 +99,7 @@
 <footer>
     <p>JAYMEDLANDS.COM &COPY;</p>
 
+    <div class="icons">
     <picture>
         <source srcset="images/youtube-mobile.png"
         media="(max-width: 375px)">
@@ -150,6 +151,7 @@
         
                 <img src="images/tiktok-desktop.png" alt="tiktok link icon"> 
     </picture>
+    </div>
 </footer>
 
 </html>

@@ -11,9 +11,9 @@
 
 <body>
 
-    <div class="container">
-        <header>
-            <div class="desktophead">
+    <header>
+        <div class="nav">
+
             <picture>
                 <source srcset="images/logo-mobile.png"
                 media="(max-width: 375px)">
@@ -27,15 +27,15 @@
                 <img src="images/logojmsmall.png" alt="jay medland logo">
             </picture>
 
-            <nav>
-                <ul>
-                <li><a class="hover" href="index.html">HOME</a></li>
-                <li><a class="hover" href="visual.html">VISUAL</a></li>
-                <li><a class="hover" href="writing.html">WRITING</a></li>
-                <li><a class="hover" href="about.html">ABOUT</a></li>
-                </ul>
-            </nav>
+            <ul class="navmenu">
+            <li><a class="hover" href="index.html">HOME</a></li>
+            <li><a class="hover" href="writing.html">WRITING</a></li>
+            <li><a class="hover" href="visual.html">VISUAL</a></li>
+            <li><a class="hover" href="about.html">ABOUT</a></li>
+            </ul>
+        </div>
 
+        <div>
             <picture>
                 <source srcset="images/about-mobile.jpg"
                 media="(max-width: 375px)">
@@ -50,7 +50,6 @@
             </picture>
             </div>
         </header>
-    </div>
 
     <section>
         <div class="aboutcontent">
@@ -139,6 +138,7 @@ communications, french
 <footer>
     <p>JAYMEDLANDS.COM &COPY;</p>
 
+    <div class="icons">
     <picture>
         <source srcset="images/youtube-mobile.png"
         media="(max-width: 375px)">
@@ -165,7 +165,7 @@ communications, french
         <img src="images/insta-desktop.png" alt="instagram link icon"> 
     </picture>
 
-        <picture>
+    <picture>
             <source srcset="images/twitter-mobile.png"
             media="(max-width: 375px)">
     
@@ -176,9 +176,9 @@ communications, french
             media="(min-width: 1025px)">
     
             <img src="images/twitter-desktop.png" alt="twitter link icon">
-        </picture>
+    </picture>
 
-            <picture>
+    <picture>
                 <source srcset="images/tiktok-mobile.png"
                 media="(max-width: 375px)">
         
@@ -189,7 +189,8 @@ communications, french
                 media="(min-width: 1025px)">
         
                 <img src="images/tiktok-desktop.png" alt="tiktok link icon"> 
-            </picture>
+    </picture>
+    </div>
 </footer>
 
 </html>
