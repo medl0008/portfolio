@@ -7,5 +7,5 @@ When beginning to code this site, I found myself surprisingly confident. I am qu
 Prior to beginning the coding, I used Photoshop to resize the images and icons I used so that they would be formatted well for the site. I also made a list of all the hex colours I used and images sizes from the prototype. To make the site, I did HTML first for every page. Then I began the CSS, and actually remmebered to do mobile first! I kept my broswer window open at a small size to style the site for mobile, including grids, sizes, etc. Then I did just one media query for screens 600px wide or larger, as the tablet and desktop prototypes had the same layout really. Then I validated the code, went back in and neatened it, and then added a little extra 'jush' for safe measure. Which now brings us here! Thank you Travis for a great semester and for being such an awesome teacher!
 
 Image Sources:
-all photography: Me
+all photography + logo: Me
 icons for social media: icons8.com 
