@@ -196,7 +196,7 @@ h3 {
 }
 
 .writingcontent img {
-    width: 234px;
+    width: 300px;
     height: 167px;
     border-top: solid 5px #A4D1DE;
     border-bottom: solid 8px #A4D1DE;
@@ -213,7 +213,7 @@ h4 {
 .kesharticle {
     font-family: 'bebas_neueregular';
     color: #181919;
-    width: 250px;
+    width: 316px;
     font-size: 20px;
 }
 
@@ -227,7 +227,7 @@ h4 {
 .lgbtq {
     font-family: 'bebas_neueregular';
     color: #181919;
-    width: 250px;
+    width: 316px;
     font-size: 20px;
     padding-top: 25px;
 
@@ -236,7 +236,7 @@ h4 {
 .diva {
     font-family: 'bebas_neueregular';
     color: #181919;
-    width: 250px;
+    width: 316px;
     font-size: 20px;
     padding-top: 25px;
 
@@ -252,7 +252,7 @@ h4 {
 }
 
 .visualcontent img {
-    width: 234px;
+    width: 300px;
     height: 167px;
     border-top: solid 5px #BCDF9B;
     border-bottom: solid 8px #BCDF9B;
@@ -263,7 +263,6 @@ h4 {
 .visualcontent h2 {
     font-family: 'bebas_neueregular';
     color: #181919;
-    width: 250px;
     font-size: 20px;
     background-color: #BCDF9B;
     height: 100px;
@@ -309,7 +308,7 @@ h5 {
 }
 
 .aboutcontent img {
-    width: 234px;
+    width: 300px;
     height: 167px;
     border-top: solid 5px #BAACF3;
     border-bottom: solid 8px #BAACF3;
@@ -323,6 +322,7 @@ h5 {
 
 /*tablet and desktop screen styling*/
 @media only screen and (min-width: 650px) {
+    /*footer*/
     footer {
         font-size: 22px;
     }
@@ -335,11 +335,13 @@ h5 {
         padding: 30px;
     }
 
+    /*nav*/
     .nav ul {
         font-size: 30px;
         padding-top: 35px;
     }
 
+    /*homepage*/
     .homecontent {
         display: grid;
         grid-template-columns: auto auto auto;
@@ -400,6 +402,7 @@ h5 {
         grid-row: 3;
     }
 
+    /*writing page*/
     h4 {
         font-size: 25px;
     }
@@ -436,6 +439,7 @@ h5 {
         grid-row: 3;
     }
 
+    /*visual page*/
     .visualcontent {
         display: grid;
         grid-template-columns: auto auto auto;
@@ -468,6 +472,7 @@ h5 {
         grid-row: 3;
     }
 
+    /*about page*/
     .aboutcontent {
         display: grid;
         justify-content: center;

@@ -1,1 +1,11 @@
 # portfolio
+
+This portfolio is a condensed collection of links to some of my digitalized work across various formats. It introduces myself and my aesthetic to potential employers, in order for them to get a feel for my creative and technical skills. The collection includes relevant pieces of work in photography, writing, and videography, as well as links to social platforms, and a brief description of my academic experience. I consider it to be a personally-curated "hub" to my various digital works and ventures.
+
+When beginning to code this site, I found myself surprisingly confident. I am quite proud of well I have been doing in web development this year despite the technical challenge it brings. I would say my biggest difficulty with this project was honestly time management. The end-of-the-year burnout and regular burnout I have been feeling for some time made it a challenge to get started. However, once I started, I instantly got into the zone. The biggest technical challenge however, was centering and aligning my site content. Just going between display functions, margins, etc, I found myself getting a little confused. Trial and error certainly helped get my content aligned (almost) how I wanted. I had planned to have my header and footer be a darker colour, but alas the coding alignment gods were not with me on that one. Despite teh challenges, I got more comfortable with alignment, as well as using grids and image sourcesets.
+
+Prior to beginning the coding, I used Photoshop to resize the images and icons I used so that they would be formatted well for the site. I also made a list of all the hex colours I used and images sizes from the prototype. To make the site, I did HTML first for every page. Then I began the CSS, and actually remmebered to do mobile first! I kept my broswer window open at a small size to style the site for mobile, including grids, sizes, etc. Then I did just one media query for screens 600px wide or larger, as the tablet and desktop prototypes had the same layout really. Then I validated the code, went back in and neatened it, and then added a little extra 'jush' for safe measure. Which now brings us here! Thank you Travis for a great semester and for being such an awesome teacher!
+
+Image Sources:
+all photography: Me
+icons for social media: icons8.com 
